@@ -1,0 +1,56 @@
+body {
+    font-family: Arial; 
+}
+
+.heading {
+    text-align:center;
+    flex-shrink: 0;
+    font-size: 15px;
+}
+
+.subheading{
+    text-align:left;
+    font-weight: bold; 
+    object-fit: contain;
+    flex-shrink: 0;
+    font-size: 15px;
+    height:auto;
+
+}
+
+.content{
+    font-weight: normal;
+    height: auto;
+}
+
+.Parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.child1 {
+    width: 50%;
+    height: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+.child2 {
+    width: 50%;
+    height: auto;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+.styledimg{
+    background-repeat: no-repeat;  
+}
+
+.image {
+    align-self: center;
+    max-width: 100%;
+    object-fit: contain;
+    flex-shrink: 0;
+}

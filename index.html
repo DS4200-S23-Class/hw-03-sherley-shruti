@@ -3,10 +3,103 @@
 
 <head>
     <meta charset=utf-8/>
+    <link rel = "stylesheet" href = "hw3.css">
+
+    <!--title and centered heading-->
+    <title> hw-03 </title>
+    <div class = "heading">
+        <h1> hw-03: Interactive Webpage, and Marks & Channels </h1>
+
 </head>
 
 
+
 <body>
+
+    <!--creating flexbox parent container-->
+    <div class = "Parent">
+
+        <!--child1 contains the vertically stacked images-->
+        <div class ="child1">
+            <div id="styledimg"> <img class="image" src="/Users/shruti/Desktop/DS4200/hw-03-sherley-shruti/img/vis1.png"/> </div>
+            <div id="styledimg"> <img class="image" src="/Users/shruti/Desktop/DS4200/hw-03-sherley-shruti/img/vis2.png"/> </div>
+
+            <!-- this is where you sherley will add her visualization -->
+        </div>
+
+        <!--child2 contains all the marks and channels analysis-->
+        <div class ="child2">
+            <div class = "subheading">
+                <h1> Marks </h1>
+            <div class= "content">
+                <ul>
+                    <li>Lines: help denote regions to show areas that candidates won electoral votes</li>
+                    <li>Areas: the visualization is a map that is divided into areas based on the locations of the states</li>
+            
+                    </ul>
+            </div>
+            </div>
+
+            <div class = "subheading">
+                <h1> Channels </h1>
+            <div class= "content">
+                <ul>
+                    <li>Color: This channel represents the categorical variable that is political party. 
+                        It is used to distinguish between the states that the Republican and 
+                        Democratic parties won in the electoral college. This is a good choice for 
+                        this category because it shows a clear visual distinction between the parties.</li>
+
+                    <li>Shapes: This channel represents the cateogorical variable that is states. 
+                        Different states are different shapes and this is shown by this channel. This is a good 
+                        choice because it allows for the creation of a map that is easily recognizable and 
+                        shows the regions based on state, which is critical to this information. Moreover, squares
+                        are used at the bottom to offer more information about states where both parties are
+                        represented equally. This is also a good idea because it visually helps differentiate 
+                        how each party impacted that state. Moreover, shapes are used to create a bar where the 
+                        overall votes obtained by both candidates is shown. This is a good choice because it offers 
+                        insight into the overall results of the race.</li>
+
+                    <li>Area: This channel represents the quantitative variable that is area through 
+                        a sequencial order. This again helps create the visualization of the map. Diffeent 
+                        states are different sizes and this reflects different areas. For states like California 
+                        or Texas, this is a very important piece of information to decide their impact on the 
+                        race. Therefore, this is a very good choice! Moreover, areas are used to show which candidate
+                         got more votes overall, offering a easy way to quantify the proportion of total votes each 
+                         candidate got at the end. This makes it a very good channel to represent that information!</li>
+                    </ul>
+            </div>
+            </div>
+            
+            <div class = "subheading">
+                <h1> Colormaps </h1>
+            <div class= "content">
+                <ul>
+                    <li>Categorical: This colormap represents the categorical variable that is party. 
+                        This is a good choice since there are two distinct parties. Therefore, all 
+                        that is required are two colors to represent them both. </li>
+            
+                    </ul>
+            </div>
+            </div>
+        </div>
+            
+
+    </div>
+
+    <!--this div contains acknoqledgements for all the resources used-->
+    <div class = "Acknowledgements"> 
+        <h2 class = "Acknowledgements"> Acknowledgements <h2></h2>
+
+        <ul>
+        <li> https://css-tricks.com/snippets/css/a-guide-to-flexbox/</li>
+            
+            <!-- ADD MORE RESOURCES!-->
+
+        </ul>
+
+    </div>
+
+
 
 
 </body>

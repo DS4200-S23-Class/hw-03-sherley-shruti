@@ -4,7 +4,7 @@
 <head>
     <meta charset=utf-8/>
     <link rel = "stylesheet" href = "hw3.css">
-
+    
     <!--title and centered heading-->
     <title> hw-03 </title>
     <div class = "heading">
@@ -15,16 +15,17 @@
 
 
 <body>
+    
 
     <!--creating flexbox parent container-->
     <div class = "Parent">
 
         <!--child1 contains the vertically stacked images-->
         <div class ="child1">
-            <div id="styledimg"> <img class="image" src="/Users/shruti/Desktop/DS4200/hw-03-sherley-shruti/img/vis1.png"/> </div>
-            <div id="styledimg"> <img class="image" src="/Users/shruti/Desktop/DS4200/hw-03-sherley-shruti/img/vis2.png"/> </div>
-
             <!-- this is where you sherley will add her visualization -->
+            <div id="styledimg"> 
+                <img class="image" src="img/vis1.png"/> 
+            </div>
         </div>
 
         <!--child2 contains all the marks and channels analysis-->
@@ -33,10 +34,10 @@
                 <h1> Marks </h1>
             <div class= "content">
                 <ul>
-                    <li>Lines: help denote regions to show areas that candidates won electoral votes</li>
+                    <li>Lines: Lines: help denote regions to show areas that candidates won electoral votes.</li>
                     <li>Areas: the visualization is a map that is divided into areas based on the locations of the states</li>
             
-                    </ul>
+                </ul>
             </div>
             </div>
 
@@ -44,43 +45,153 @@
                 <h1> Channels </h1>
             <div class= "content">
                 <ul>
-                    <li>Color: This channel represents the categorical variable that is political party. 
-                        It is used to distinguish between the states that the Republican and 
-                        Democratic parties won in the electoral college. This is a good choice for 
-                        this category because it shows a clear visual distinction between the parties.</li>
+                    <li>Color: This channel represents the categorical variable that is political party. It is used to distinguish between the states that the Republican and Democratic parties won in the electoral college. This is a good choice for this category because it shows a clear visual distinction between the parties.</li>
+                        
+                    <li>Shapes: This channel represents the cateogorical variable that is states. Different states are different shapes and this is shown by this channel. This is a good choice because it allows for the creation of a map that is easily recognizable and shows the regions based on state, which is critical to this information. Moreover, squares are used at the bottom to offer more information about states where both parties are represented equally. This is also a good idea because it visually helps differentiate how each party impacted that state. Moreover, shapes are used to create a bar where the overall votes obtained by both candidates is shown. This is a good choice because it offers insight into the overall results of the race. </li>
 
-                    <li>Shapes: This channel represents the cateogorical variable that is states. 
-                        Different states are different shapes and this is shown by this channel. This is a good 
-                        choice because it allows for the creation of a map that is easily recognizable and 
-                        shows the regions based on state, which is critical to this information. Moreover, squares
-                        are used at the bottom to offer more information about states where both parties are
-                        represented equally. This is also a good idea because it visually helps differentiate 
-                        how each party impacted that state. Moreover, shapes are used to create a bar where the 
-                        overall votes obtained by both candidates is shown. This is a good choice because it offers 
-                        insight into the overall results of the race.</li>
-
-                    <li>Area: This channel represents the quantitative variable that is area through 
-                        a sequencial order. This again helps create the visualization of the map. Diffeent 
-                        states are different sizes and this reflects different areas. For states like California 
-                        or Texas, this is a very important piece of information to decide their impact on the 
-                        race. Therefore, this is a very good choice! Moreover, areas are used to show which candidate
-                         got more votes overall, offering a easy way to quantify the proportion of total votes each 
-                         candidate got at the end. This makes it a very good channel to represent that information!</li>
+                    <li>This channel represents the quantitative variable that is area through a sequencial order. This again helps create the visualization of the map. Diffeent states are different sizes and this reflects different areas. For states like California or Texas, this is a very important piece of information to decide their impact on the race. Therefore, this is a very good choice! Moreover, areas are used to show which candidate got more votes overall, offering a easy way to quantify the proportion of total votes each candidate got at the end. This makes it a very good channel to represent that information! </li>
                     </ul>
+
             </div>
-            </div>
+        </div>
             
             <div class = "subheading">
                 <h1> Colormaps </h1>
             <div class= "content">
                 <ul>
-                    <li>Categorical: This colormap represents the categorical variable that is party. 
-                        This is a good choice since there are two distinct parties. Therefore, all 
-                        that is required are two colors to represent them both. </li>
+                    <li>Categorical: This colormap represents the cateogorical variable and
+                        there are 8 categories.
+                        It is like a quantitative variable, but it's not actually a number, it's a classification using colors.
+                        This is a good choice since there are 8 different All-Star numbers.
+                        Therefore, 8 colors are required to represent them all. </li>
+
+                </ul>
+            </div>
+            </div>
+        </div>
+
+        <div class ="child3">
+            <div id="styledimg">
+                <img class="image" src="img/all-stars-by-team-chart.jpg"/>
+            </div>
+        </div>
+
+        <div class ="child4">
+            <div class = "subheading">
+                <h1> Marks </h1>
+                <div class= "content">
+                    <ul>
+                        <li>Lines: help to build horizontal and vertical coordinate system.</li>
+                        <li>Areas: indicate the team in different years.</li>
             
                     </ul>
+                </div>
+            </div>
+
+            <div class = "subheading">
+                <h1> Channels </h1>
+                <div class= "content">
+                    <ul>
+                        <li>Color: The channel represents categorical variable that is the team of NBA.
+                            It is a good choice.
+                            Because there are over 20 teams in NBA.
+                            Without color, it would be difficult to distinguish between different teams.
+                        </li>
+                        <li>Area: There are many box areas on the picture.
+                            This channel represents categorical variable that is a certain team at a certain time.
+                            It is a good choice.
+                            In addition to being able to match every team with the year, areas show us
+                            how many years the team hava over an All-Star.
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+           
+            
+            <div class = "subheading">
+                <h1> Colormaps </h1>
+            <div class= "content">
+                <ul>
+                    <li>Categorical: This colormap represents the categorical variable that is team.
+                        This a good choice since there are nearly 30 teams.
+                        Thereare, all that is required are nearly 30 colors to represent them all.
+                    </li>
+            
+                </ul>
             </div>
             </div>
+
+        </div>
+
+         <div class ="child3">
+            <div id="styledimg">
+                <img class="image" src="img/vis2.png"/>
+            </div>
+        </div>
+        <div class ="child4">
+            <div class = "subheading">
+                <h1> Marks </h1>
+                <div class= "content">
+                    <ul>
+                        <li>Dots: represent balls of different launch angles and exit velocity.</li>
+                        <li>Lines: help to build horizontal and vertical coordinate system and represent ways of playing the ball.</li>
+                        <li>Areas: indicate the team in different years.</li>
+            
+                    </ul>
+                </div>
+            </div>
+
+            <div class = "subheading">
+                <h1> Channels </h1>
+                <div class= "content">
+                    <ul>
+                        <li>Color: The channel represents categorical variable that is the scoring value of the batted ball.
+                            This is a good choice.
+                            These two colors and their gradients clearly indicate the different scores.
+                            We can clearly see which area has a high score, such as home run.
+                        </li>
+                        <li>
+                            Dot: The channel represents balls of different launch angles and exit velocity.
+                            This is a good choice.
+                            Because the strokes are independent of each other and there are many strokes.
+                            Using this way to show each stroke more clearly than other ways.
+                        </li>
+                        <li>
+                            Line: The channel represents categorical variable.
+                            Three dotted lines are used to distinguish the three ball movement modes.
+                            This is a good choice.
+                            It adds more information to the graph. We can see which way has a higher scoring value.
+                        </li>
+                        <li>Area: The channel represents quantitative variable.
+                            We can see what the proportion of different scoring values is.
+                            This is a good choice.
+                            For example, the area with a lower than average score is larger.
+                            The area with the highest scoring rate is small, has an angle and a high speed.
+                            It is a good channel.
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+           
+            
+            <div class = "subheading">
+                <h1> Colormaps </h1>
+            <div class= "content">
+                <ul>
+                    <li>Categorical: This colormap represents the categorical variable.
+                        It's a good choice since the difference and the shades of the color expressed scoring value well.
+                    </li>
+            
+                </ul>
+            </div>
+            </div>
+
+        </div>
+        
         </div>
             
 
@@ -91,17 +202,33 @@
         <h2 class = "Acknowledgements"> Acknowledgements <h2></h2>
 
         <ul>
-        <li> </li>
+        <li>
+        The data of NBA:https://www.sbnation.com/nba/2015/2/12/8025285/nba-all-star-2015-map-chart.
+        </li>
+        <li>
+        The template:https://ds4200-s23-class.github.io/hw-03-sherley-shruti/.
+        </li>
             
             <!-- ADD MORE RESOURCES!-->
 
         </ul>
 
     </div>
-
-
-
-
+    <!--Button of next page-->
+    <button id="myBtn">Next page</button>
+ 
+    <!-- Pop-up -->
+    <div id="myModal" class="modal">
+ 
+    <!-- Content of Pop-ups -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>The end of Web.</p>
+    </div>
+ 
+</div>
+    <!--Import js code-->
+    <script src="./hw3.js" type="text/javascript" charset = "utf-8"></script>
 </body>
 
 </html>

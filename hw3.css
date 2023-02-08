@@ -106,6 +106,10 @@ body {
     font-weight: bold;
 }
 
+.Acknowledgements{
+    text-align: center;
+}
+
 .close:hover,
 .close:focus {
     color: #000;
